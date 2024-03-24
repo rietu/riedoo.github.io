@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🍓</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+        background-image: url('beatopia.jpeg');
+      background-repeat: repeat; 
+      background-size: cover;
+      color: #333;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+    }
+    .social-links {
+      margin-bottom: 20px;
+    }
+    .social-links a {
+      display: inline-block;
+      margin-right: 10px;
+      color: #ffffff;
+      background-color: #ffcccc;
+      padding: 10px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .social-links a:hover {
+      background-color: #ffb3b3;
+    }
+   .contact-form {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+
+    .btn-pink {
+      background-color: #ffcccc;
+      color: #333;
+      border-color: #ffcccc;
+    }
+    .btn-pink:hover {
+      background-color: #ff9999;
+      border-color: #ff9999;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand">Featured Artist</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tracks.html">Tracks</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="socialmedia.html">Social Media</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <div class="container">
+    <div class="header">
+      <h1>Beabadoobee's Social Media</h1>
+    </div>
+
+    <div class="social-links">
+      <a href="https://www.facebook.com/radvxz" target="_blank">Facebook</a>
+      <a href="https://twitter.com/beabad00bee" target="_blank">Twitter</a>
+      <a href="https://www.instagram.com/radvxz/" target="_blank">Instagram</a>
+      <a href="https://www.youtube.com/channel/UCOf6pX571cKC0rhOZqv2y7Q" target="_blank">YouTube</a>
+      <a href="https://open.spotify.com/artist/35l9BRT7MXmM8bv2WDQiyB?si=P4I11EscSkOiEJRfeIJ-iQ" target="_blank">Spotify</a>
+    </div>
+
+    <div class="contact-form">
+      <h2>Contact</h2>
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" class="form-control" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="background-color: #ffbdbd; border-color: #ffffff;">Send Message</button>
+      </form>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
